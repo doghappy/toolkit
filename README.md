@@ -13,6 +13,9 @@ team 的 commit 格式是这样的：
 
 此工具会显示最近一天的所有 commit 信息，因为一张卡可能会有多个 commit 记录，此工具会 highlight 出最新一条 commit 的卡号，这样就可以快速的分析出需要 review 的卡。
 
+![](imgs/0.png)
+![](imgs/1.png)
+
 ## 部署方法
 
 把 code-reviewer.sh 放到 repo 的上层目录，如果 sh 文件没有执行权限，请输入 `chmod +x code-reviewer.sh`
